@@ -1,3 +1,36 @@
+/* 
+	Navbar styling
+*/
+.custom-zach-container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.custom-zach-container {
+		width: 960px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.custom-zach-container {
+		width: 720px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 990px) {
+	.custom-zach-container {
+		width: 100%;
+	}
+}
+
+
+/*
+	END Navbar styling
+*/
+
 /*
 	START splash area styling
 */
@@ -110,6 +143,42 @@
 	width: 100%;
 }
 
+.website-heading-link {
+	color: #4c4c4c;
+	font-size: 1.6em;
+}
+
+.website-heading-link:hover {
+	color: black;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.website-snapshot-image {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 35px;
+	margin-top: 15px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
 /*
 	END portfolio of past websites styling
+*/
+
+/*
+	START contact form styling
+*/
+
+.home-contact-form-section {
+	background: #f1f1f1;
+	min-height: 400px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;	
+}
+
+/*
+	END contact form styling
 */
