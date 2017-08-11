@@ -46,9 +46,30 @@
 */
 
 .three-reasons-to-choose-us {
-	background: #FAEBD7;
-	height: 400px;
+	background: #E9E9E9;
+	min-height: 400px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	width: 100%;
+}
+
+.circle-with-number {
+	border-radius: 50%;
+	background-color: black;
+	color: white;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	line-height: 80px;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.sub-header-2 {
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 /*
@@ -61,7 +82,9 @@
 
 .about-the-main-developer {
 	background: #effdf7;
-	height: 400px;
+	min-height: 400px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	width: 100%;
 }
 
@@ -75,7 +98,9 @@
 
 .portfolio-of-past-websites {
 	background: #FDF0EF;
-	height: 400px;
+	min-height: 400px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	width: 100%;
 }
 
