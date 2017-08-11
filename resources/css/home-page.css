@@ -1,0 +1,84 @@
+/*
+	START splash area styling
+*/
+.splash-area-container {
+	color: white;
+	padding-top: 150px;
+	text-align: center;
+
+	background-image: url("../../img/developer-working-on-site.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	height: 95vh;
+	width: 100%;
+}
+
+.splash-h1 {
+	padding-top: 15%;
+	font-size: 6em;
+	font-weight: 800;
+}
+
+.contact-us-splash-button {
+	margin-top: 35px;
+	font-size: 1.5em;
+}
+
+@media (max-width: 760px) {
+	.splash-area-container {
+		height: 75vh;
+		padding-top: 100px;
+	}
+	.splash-h1 {
+		padding-top: 0%;
+		font-size: 4em;
+		line-height: 1.3;
+	}
+}
+
+/*
+	END splash area styling
+*/
+
+/*
+	START three reasons to choose us styling
+*/
+
+.three-reasons-to-choose-us {
+	background: #FAEBD7;
+	height: 400px;
+	width: 100%;
+}
+
+/*
+	END three reasons to choose us styling
+*/
+
+/*
+	START about the main developer styling
+*/
+
+.about-the-main-developer {
+	background: #effdf7;
+	height: 400px;
+	width: 100%;
+}
+
+/*
+	END about the main developer styling
+*/
+
+/*
+	START portfolio of past websites styling
+*/
+
+.portfolio-of-past-websites {
+	background: #FDF0EF;
+	height: 400px;
+	width: 100%;
+}
+
+/*
+	END portfolio of past websites styling
+*/
