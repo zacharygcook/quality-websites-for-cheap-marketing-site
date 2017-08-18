@@ -179,6 +179,15 @@
 	width: 100%;	
 }
 
+#foxyform_embed_link_891698 {
+	display: none !important;
+}
+
+#special-foxy-form-wrapper iframe {
+	margin: 0 auto !important;
+	width: 100%;
+}
+
 /*
 	END contact form styling
 */

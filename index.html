@@ -34,26 +34,26 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a style="padding-left: 320px;" class="navbar-brand" href="#">
+      <a style="padding-left: 320px;" class="navbar-brand" href="#splash-area">
         <img src="img/shield-of-arms-logo.png" style="height: 30px; width: auto;" />
         Quality Websites for Cheap
       </a>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#splash-area">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Why Choose Us</a>
+            <a class="nav-link" href="#why-choose-us-section">Why Choose Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About the Developer</a>
+            <a class="nav-link" href="#about-developer-section">About the Developer</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#portfolio-section">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="#contact-form-section">Contact Us</a>
           </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
@@ -68,14 +68,16 @@
 
     <!-- Begin page content -->
 
-    <div class="splash-area-container">
+    <div id="splash-area" class="splash-area-container">
       <div class="container">
         <h1 class="splash-h1">We Build <i>High Quality</i> Websites for Reasonable Prices</h1>
-        <button class="btn btn-lg btn-primary contact-us-splash-button">Contact Us About Your Project!</button>
+        <a href="#contact-form-section">
+          <button class="btn btn-lg btn-primary contact-us-splash-button">Contact Us About Your Project Today!</button>
+        </a>
       </div>
     </div>
 
-    <div class="three-reasons-to-choose-us">
+    <div id="why-choose-us-section" class="three-reasons-to-choose-us">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -130,7 +132,7 @@
       </div>
     </div>
 
-    <div class="about-the-main-developer">
+    <div id="about-developer-section" class="about-the-main-developer">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -176,10 +178,12 @@
       </div>
     </div>
 
-    <div class="portfolio-of-past-websites">
+    <div id="portfolio-section" class="portfolio-of-past-websites">
       <div class="container">
         <div class="row">
-          <h2 style="padding-bottom: 20px;">A Couple Examples of Past Work </h2>
+          <div class="container">
+            <h2 style="padding-bottom: 20px;">Examples of Past Work </h2>
+          </div>
         </div>
         <div class="row">
           <div class="col-md-6">
@@ -190,7 +194,7 @@
 
           </div>
           <div class="col-md-6">
-            <a class="website-heading-link" target="_blank" href="http://guildtech.co"><h3>Guild Technologies, Inc Corporate Site</h3></a>
+            <a class="website-heading-link" target="_blank" href="http://guildtech.co"><h3>Guild Technologies Corporate Site</h3></a>
             <img class="website-snapshot-image" src="img/guild-tech-site.png" />
 
             <a target="_blank" href="http://guildtech.co"><h4>www.guildtech.co</h4></a>
@@ -200,15 +204,47 @@
       </div>
     </div>
 
-    <div class="home-contact-form-section">
+    <div id="contact-form-section" class="home-contact-form-section">
+
       <div class="container">
+
+        <h2 style="padding-bottom: 15px;">Get in Touch if You Have a Project for us :)</h2>
+        <!-- Foxy form from (http://www.foxyform.com) They say "Do not change the code!"" -->
+        <div id="special-foxy-form-wrapper">
+
+          <a id="foxyform_embed_link_891698" href="http://www.foxyform.com/">foxyform</a>
+          <script type="text/javascript">
+          (function(d, t){
+             var g = d.createElement(t),
+                 s = d.getElementsByTagName(t)[0];
+             g.src = "http://www.foxyform.com/js.php?id=891698&sec_hash=0a02d5245f5&width=350px";
+             s.parentNode.insertBefore(g, s);
+          }(document, "script"));
+          </script>
+
+        </div>
+        <!-- END Foxy form -->
 
       </div>
     </div>
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+        <div class="row">
+          <div class="col-md-12">
+            <p>Visit me on social media!</p>
+
+            <a target="_blank" style="padding-right: 15px;" href="https://www.linkedin.com/in/zacharygcook/">
+              <img src="img/linkedin-logo.png" />
+            </a>
+            <a target="_blank" style="padding-right: 15px;" href="https://github.com/zacharygcook">
+              <img src="img/github.png" />
+            </a>
+            <a target="_blank" style="padding-right: 15px;" href="https://twitter.com/zach_hustles">
+              <img src="img/twitter-logo-button.png" />
+            </a>
+          </div>
+        </div>
       </div>
     </footer>
 
